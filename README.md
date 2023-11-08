@@ -27,8 +27,8 @@ This is a solution to the QR code component challenge on Frontend Mentor. Fronte
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Ayyappanakkala/QR-code)
+- Live Site URL: (https://ayyappanakkala.github.io/QR-code/)
 
 ## My process
 
@@ -104,7 +104,7 @@ These resources played a significant role in guiding me through the project and 
 
 ## Author
 
-- Website - [Ayyappa Akkala](https://www.your-site.com)
+- Website - [Ayyappa Akkala](https://github.com/Ayyappanakkala/Personal_Portfolio.git)
 - Frontend Mentor - [@Ayyappanakkala](https://www.frontendmentor.io/profile/@Ayyappanakkala)
 
 ## Acknowledgments
