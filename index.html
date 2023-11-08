@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;700&family=Roboto&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background: hsl(212, 45%, 89%);
+      font-family: Outfit;
+
+    }
+    .container{
+      width: 18.5%;
+      height: 27rem;
+      background: hsl(0, 0%, 100%);
+      border-radius: 1.25rem;
+      margin: auto;
+      margin-top: 10%;
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .image img{
+      width: 15.625rem;
+      border-radius: 0.5rem;
+    }
+    .heading{
+      font-weight: 700;
+      text-align: center;
+      color: hsl(218, 44%, 22%);
+      margin-bottom: 1.4rem;
+    }
+    .para{
+      font-size: 0.938rem;
+      font-weight: 400;
+      text-align: center;
+      color: hsl(220, 15%, 55%);
+    }
+    .attribution {
+       font-size: 11px; text-align: center; 
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%);
+    }
+    @media (max-width: 1440px) {
+      .image img{
+        width: 15rem;
+        margin-top: -.999rem;
+      }
+    }
+    @media (max-width: 400px) {
+      .container{
+        width: 80%;
+        gap: .2rem;
+      }
+      .image img{
+        width: 17rem;
+        margin-top: .2rem;
+      }
+      .heading{
+        padding-bottom: 0rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="./images/image-qr-code.png" alt="QR-Code">
+    </div>
+    <div>
+      <div>
+        <h3 class="heading">Improve your front-end <br>skills by buliding projects</h3>
+      </div>
+      <div>
+        <p class="para">Scan the QR code to visti Frontend <br>Mentor and take your coding skills <br>to the next level</p>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ayyappa Akkala</a>.
+  </div>
+</body>
+</html>
